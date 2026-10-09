@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wrightsdigit.pages.dev/sitemap.xml
