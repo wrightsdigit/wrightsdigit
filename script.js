@@ -1,5 +1,5 @@
 /* Wrightsdigit — production frontend interactions */
-const FORM_ENDPOINT = 'https://formsubmit.co/wrightsdigit@gmail.com';
+const FORM_ENDPOINT = 'https://formsubmit.co/189e5d016e52b75592083f498670ae8e';
 
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.nav');
@@ -253,7 +253,7 @@ function openQuote(target){
   panel.classList.add('quote-selected', 'active');
   const form=panel.querySelector('form');
   if(!form) return;
-  form.action='https://formsubmit.co/wrightsdigit@gmail.com';
+  form.action = FORM_ENDPOINT;
   form.classList.remove('order-provider-form');
   form.classList.add('quote-provider-form');
   form.dataset.quoteName=source.dataset.orderName||source.querySelector('h3')?.textContent||'Quote Request';
