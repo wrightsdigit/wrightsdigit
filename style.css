@@ -123,3 +123,11 @@ body.modal-open{overflow:hidden}
 .quote-modal .order-panel,.quote-modal .quote-selected{display:block}
 .quote-modal .order-form{background:#141414}
 @media(max-width:760px){.quote-modal{padding:12px}.quote-modal-dialog{max-height:95vh}.quote-modal-content{padding:34px 14px 18px}}
+
+.portfolio .work-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
